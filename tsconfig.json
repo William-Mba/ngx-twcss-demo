@@ -6,9 +6,15 @@
     "strict": true,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
+    "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noFallthroughCasesInSwitch": true,
     "skipLibCheck": true,
+    "paths": {
+      "customs/*": [
+        "./src/assets/configs/ngx-twcss/*"
+      ]
+    },
     "esModuleInterop": true,
     "sourceMap": true,
     "declaration": false,
